@@ -1,4 +1,5 @@
 package com.jing.fragmenttest;
+import com.jing.newsapp.*;
 
 import android.app.Fragment;
 import android.view.LayoutInflater;

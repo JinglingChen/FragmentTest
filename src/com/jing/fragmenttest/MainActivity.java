@@ -1,4 +1,5 @@
 package com.jing.fragmenttest;
+import com.jing.newsapp.*;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -23,7 +24,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	public void onClick(View v){
 		switch(v.getId()){
 		case R.id.button1:
-			//动态添加碎片：
+			/*动态添加碎片：
 			//1、创建带添加碎片的实例
 			AnotherRightFragment anotherRightFragment=new AnotherRightFragment();
 			//2、获取到FragmentManager实例，在活动中可以直接调用getFragmentManager()方法得到
@@ -31,15 +32,16 @@ public class MainActivity extends Activity implements OnClickListener{
 			//3、开启一个事务，通过调用beginTransaction()方法开启
 			FragmentTransaction transaction = fragmentManager.beginTransaction();
 			//4、向容器内加入碎片，一般使用replace()方法实现，要传入容器的id和待添加的碎片实例
+			
 			transaction.replace(R.id.right_layout,anotherRightFragment);
 			transaction.addToBackStack(null);//模仿返回栈的效果
 			//5、提交事物，调用commit()方法来完成
 			transaction.commit();
+			*/
 			break;
 		default:
 			break;
 			
 		}
 	}
-
 }
