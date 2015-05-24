@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
      android:baselineAligned="false" >
-
+   
+   
+   <!--另外一块布局的demo先注释掉
     <fragment
         android:id="@+id/left_fragment"
         android:name="com.jing.fragmenttest.LeftFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
-    <!--另外一块布局的demo先注释掉 
+        android:layout_weight="1" /> 
     <FrameLayout
         android:id="@+id/right_layout"
         android:layout_width="0dp"

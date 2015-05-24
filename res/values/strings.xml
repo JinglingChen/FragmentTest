@@ -4,5 +4,6 @@
     <string name="app_name">Fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="line">this is just a line</string>
 
 </resources>

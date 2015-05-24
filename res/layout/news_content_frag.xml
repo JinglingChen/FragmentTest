@@ -19,7 +19,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/spilt_line" />
+                android:src="@drawable/spilt_line"
+                android:contentDescription="@string/line"
+                />
             <TextView
                 android:id ="@+id/news_content"
                 android:layout_width="match_parent"
@@ -33,7 +35,8 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/spilt_line_vertical" />
+                android:src="@drawable/spilt_line_vertical" 
+                android:contentDescription="@string/line"/>
     
 
 </RelativeLayout>
