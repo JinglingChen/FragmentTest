@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
      android:baselineAligned="false" >
-
+   <!-- This is test demo,
     <fragment
         android:id="@+id/left_fragment"
         android:name="com.jing.fragmenttest.LeftFragment"
@@ -17,5 +17,23 @@
         android:layout_height="match_parent"
         android:layout_weight="3"
         />
+        -->
+      <fragment 
+          android:id="@+id/news_title_fragment"
+          android:name="com.jing.newsapp.NewsTitleFragment"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" />
+      <FrameLayout
+          android:id="@+id/news_content_layout"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="3">
+          <fragment 
+              android:id="@+id/news_content_fragment"
+              android:name="com.jing.newsapp.NewsContentFragment"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"/>
+      </FrameLayout>
 
 </LinearLayout>
